@@ -1,0 +1,563 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.right-section .form-section h4,
+.right-section .form-header-section .form-header h3,
+.left-section-content .enquiries-section h4,
+.left-section-content .register-section h4,
+.left-section-content .elgibility-section h4 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.left-section-content .enquiries-section .enquiries-details p,
+.left-section-content .register-section p,
+.left-section-content .elgibility-section p,
+.left-section-content .welcome-text p {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px 0;
+}
+
+.right-section .form-section form .material-input input,
+.right-section .form-section form .material-input select {
+  border: none;
+  width: 100%;
+  color: #363636;
+  border-bottom: 2px solid darkgray;
+  padding: 6px 4px;
+  outline: none;
+  transition: all 0.15s ease-out;
+  background: none;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #0081F1;
+  border: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container-2 {
+  width: 90%;
+  margin: auto;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px 0;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 15px 0;
+  grid-gap: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.grid-3 {
+  display: flex;
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 15px;
+}
+
+.btn {
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #259aff;
+}
+
+.form-overview {
+  display: flex;
+  background: #fff;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0081F1;
+  width: 50%;
+}
+
+.left-section-content {
+  color: #fff;
+}
+
+.left-section-content .welcome-text {
+  margin: 15px 0;
+}
+
+.left-section-content .welcome-text h1 {
+  font-family: "Merienda One", cursive;
+  font-size: 3.5em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.left-section-content .welcome-text p {
+  margin: 10px 0;
+}
+
+.left-section-content .elgibility-section {
+  margin: 15px 0;
+}
+
+.left-section-content .register-section {
+  margin: 15px 0;
+}
+
+.left-section-content .register-section-content {
+  width: 500px;
+  padding: 20px;
+}
+
+.left-section-content .enquiries-section {
+  margin: 15px 0;
+}
+
+.left-section-content .enquiries-section .enquiries-details {
+  display: flex;
+}
+
+.left-section-content .enquiries-section .enquiries-details span {
+  margin-right: 15px;
+}
+
+.left-section-content .enquiries-section .enquiries-details .phone-icon {
+  padding: 10px 0;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.right-section-content {
+  width: 600px;
+}
+
+.right-section .form-header-section {
+  padding: 20px;
+}
+
+.right-section .form-header-section .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.right-section .form-header-section .logo img {
+  height: 80px;
+  width: 90px;
+}
+
+.right-section .form-header-section .form-header {
+  margin: 10px 0;
+}
+
+.right-section .form-header-section .form-header h3 {
+  font-family: "Merienda One", cursive;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.right-section .form-section {
+  margin-bottom: 30px;
+}
+
+.right-section .form-section h4 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.right-section .form-section .error-msg {
+  justify-content: space-between;
+  padding: 10px;
+  background: #fd3c33;
+  color: #fff;
+}
+
+.right-section .form-section .error-msg .close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.right-section .form-section .success-msg {
+  justify-content: space-between;
+  padding: 10px;
+  background: #0081F1;
+  color: #fff;
+}
+
+.right-section .form-section .success-msg .close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.right-section .form-section form {
+  padding: 20px;
+}
+
+.right-section .form-section form .material-input {
+  position: relative;
+  padding-top: 20px;
+  transition: all 0.15s ease-out;
+  width: 100%;
+}
+
+.right-section .form-section form .material-input label {
+  position: absolute;
+  pointer-events: none;
+  left: 4px;
+  top: 26px;
+  color: darkgray;
+  transform: scale(1.1);
+  transition: all 0.15s ease-out;
+}
+
+.right-section .form-section form .material-input.materialize input,
+.right-section .form-section form .material-input.materialize select {
+  border-bottom: 2px solid #0081F1;
+}
+
+.right-section .form-section form .material-input.materialize label {
+  top: 0;
+  left: 0;
+  color: #0081F1;
+  transform: scale(0.95);
+}
+
+.right-section .form-section form .gender-section {
+  width: 50%;
+}
+
+.right-section .form-section form .gender-section p {
+  margin-bottom: 5px;
+  color: darkgrey;
+}
+
+.right-section .form-section form .gender-section label {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.375em;
+}
+
+.right-section .form-section form .gender-section label input {
+  position: absolute;
+  left: -9999px;
+}
+
+.right-section .form-section form .gender-section label input:checked + span {
+  background-color: #d6ebfd;
+}
+
+.right-section .form-section form .gender-section label input:checked + span:before {
+  box-shadow: inset 0 0 0 0.4375em #0081F1;
+}
+
+.right-section .form-section form .gender-section label input[type=radio]:checked + span {
+  color: #0081F1;
+}
+
+.right-section .form-section form .gender-section label span {
+  display: flex;
+  align-items: center;
+  padding: 0.375em 0.75em 0.375em 0.375em;
+  border-radius: 99em;
+  transition: 0.25s ease;
+  color: darkgrey;
+}
+
+.right-section .form-section form .gender-section label span:hover {
+  background-color: #d6ebfd;
+  color: #0081F1;
+}
+
+.right-section .form-section form .gender-section label span:before {
+  display: flex;
+  flex-shrink: 0;
+  content: "";
+  background-color: #fff;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 0.375em;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 0.125em #0081F1;
+}
+
+.right-section .form-section form .uploads-area {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.right-section .form-section form .uploads-area p {
+  color: darkgrey;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.right-section .form-section form .box {
+  min-height: 200px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.right-section .form-section form .box .preview-box {
+  height: 150px;
+  border: none;
+}
+
+.right-section .form-section form .box .preview-box img {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.right-section .form-section form .box label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #0081F1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.right-section .form-section form .box label:hover {
+  background: #259aff;
+}
+
+.right-section .form-section form .box input {
+  display: none;
+}
+
+.right-section .form-section form .checkbox {
+  width: 100%;
+  margin: 15px auto;
+  position: relative;
+  display: block;
+}
+
+.right-section .form-section form .checkbox input[type=checkbox] {
+  width: auto;
+  opacity: 1e-8;
+  position: absolute;
+  left: 0;
+  margin-left: -20px;
+}
+
+.right-section .form-section form .checkbox label {
+  position: relative;
+}
+
+.right-section .form-section form .checkbox label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 4px;
+  width: 22px;
+  height: 22px;
+  transition: transform 0.28s ease;
+  border-radius: 3px;
+  border: 2px solid #0081F1;
+}
+
+.right-section .form-section form .checkbox label:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 5px;
+  border-bottom: 2px solid #0081F1;
+  border-left: 2px solid #0081F1;
+  transform: rotate(-45deg) scale(0);
+  transition: transform ease 0.25s;
+  will-change: transform;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+
+.right-section .form-section form .checkbox input[type=checkbox]:checked ~ label::before {
+  color: #0081F1;
+}
+
+.right-section .form-section form .checkbox input[type=checkbox]:checked ~ label::after {
+  transform: rotate(-45deg) scale(1);
+}
+
+.right-section .form-section form .checkbox label {
+  min-height: 34px;
+  display: block;
+  padding-left: 40px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.right-section .form-section form .checkbox label span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right-section .form-section form .checkbox input[type=checkbox]:focus + label::before {
+  outline: 0;
+}
+
+.right-section .form-section form .pay-area {
+  padding: 10px;
+  display: none;
+}
+
+.right-section .form-section form .pay-area .pay-btn {
+  padding: 5px 10px;
+  font-size: 0.8em;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.right-section .form-section form .btn-area {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.right-section .form-section form .btn-area .btn-continue {
+  width: 150px;
+  cursor: pointer;
+}
+
+.right-section .form-section form .btn-area .btn-finish {
+  display: none;
+  width: 150px;
+}
+
+.right-section footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.right-section footer P a {
+  color: #0081F1;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@media (max-width: 656.98px) {
+  .form-overview {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .left-section {
+    width: 100%;
+  }
+
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 656.99px) and (max-width: 767.98px) {
+  .form-overview {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 1117.98px) {
+  .form-overview {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .container-2 {
+    width: 80%;
+  }
+}
+
